@@ -1,0 +1,30 @@
+{
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "ethereumweb3gulptestrpcbootstrapall",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaminArafat/Project2.git"
+  },
+  "author": "YaminArafat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YaminArafat/Project2/issues"
+  },
+  "homepage": "https://github.com/YaminArafat/Project2#readme"
+}
