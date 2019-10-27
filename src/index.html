@@ -1,9 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" hr
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md fixed-top" >
+      <div class="container">
+        <a href="#top" class="navbar-brand">Hello</a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          datd-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#top"><b style="color: black;">Home</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#verifysec"
+                ><b style="color: black;">Verify</b></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#uploadsec"><b style="color: black;">Upload</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""
+                ><b style="color: black;">About</b></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <br /><br />
+
+    <div class="conatiner"  style="padding-top: 20px;" id="top">
+      <div class="carousel slide" id="slider1" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#slider1" data-slide-to="0"></li>
+          <li data-target="#slider1" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img
+              src="img/plain-backgrounds-light-green-website-background-hd-wallpaper-plain-888779177.jpg"
+              alt="first slide"
+              class="d-block img-fluid"
+              style="background: transparent; opacity: 0.5;border:solid black 5px;"
+            />
+
+            <div class="carousel-caption mb-100x">
+              <button
+                class="btn btn-primary"
+                id="verify"
+                style="border: 3px solid blue; background-color: transparent; color:chartreuse;"
+              >
+                <h2>
+                  <strong
+                    ><a href="#verifysec" style="color: chartreuse;"
+                      >Verify Here</a
+                    ></strong
+                  >
+                </h2>
+              </button>
+
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/plain-backgrounds-light-green-website-background-hd-wallpaper-plain-888779177.jpg"
+              alt="second slide"
+              class="d-block img-fluid"
+              style="background: transparent; opacity: 0.5;border:solid black 5px;"
+            />
+            <div class="carousel-caption">
+              <button
+                class="btn btn-primary"
+                id="upload"
+                style="border: 3px solid blue; background-color: transparent; color: chartreuse;"
+                
+              >
+              <h2>
+                    <strong
+                      ><a href="#uploadsec" style="color: chartreuse;"
+                        >Upload Here</a
+                      ></strong
+                    >
+                  </h2>
+              </button>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+        <a href="#slider1" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#slider1" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="verifysec" align="center" style="padding-bottom: 600px; padding-top: 70px;">
+          <h1 style="color: chartreuse; ">Verifying</h1>
+          <form>
+            <div class="form-group">
+                    <input type="file" name="name" class="btn btn-primary" style="color: blue;" multiple accept="file_extension,audio/*,video/*,image/*,media_type/*,pdf/*,pptx/*,docx/*"><br><br>
+                    <input type="submit" value="Verify" class="btn btn-primary">
+          </form>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="uploadsec" align="center" style="padding-top: 70px;">
+            <h1 style="color: chartreuse; ">Uploading</h1>
+            <form>
+              <div class="form-group">
+                      <input type="file" name="name" class="btn btn-primary" style="color: blue;" multiple accept="file_extension,audio/*,video/*,image/*,media_type/*,pdf/*,pptx/*,docx/*"><br><br>
+                      <input type="submit" value="Upload" class="btn btn-primary">
+            </form>
+      </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(".carousel").carousel({
+        interval: 2000
+      });
+    </script>
+  </body>
+</html>
